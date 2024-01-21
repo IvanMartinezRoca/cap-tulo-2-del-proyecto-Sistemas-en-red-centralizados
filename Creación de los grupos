@@ -4,11 +4,12 @@ objectClass: organizationalUnit
 ou: depDireccion
 
 # Grupo del departamento de Secretaria
-dn: ou=grupos,ou=depSecretaria,dc=miralcamp,dc=local
+dn: ou=depSecretaria,dc=miralcamp,dc=local
 objectClass: organizationalUnit
-ou: grupos
+ou: depSecretaria
+
 
 # Grupo del departamento de Conserjeria
-dn: ou=equipos,ou=depConserjeria,dc=miralcamp,dc=local
+dn: ou=depConserjeria,dc=miralcamp,dc=local
 objectClass: organizationalUnit
-ou: equipos
+ou: depConserjeria
