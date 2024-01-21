@@ -1,0 +1,16 @@
+#UO'S del departamento de Dirección
+
+
+#UO'S del departamento de Secretaria
+
+
+#UO'S del departamento de Conserjeria
+dn: ou=grupos,ou=depConserjeria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: grupos
+dn: ou=equipos,ou=depConserjeria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: equipos
+dn: ou=usuarios,ou=depConserjeria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: usuarios
