@@ -1,0 +1,44 @@
+#Usuario del departamento de Dirección
+dn: uid=RGALLEGOC,ou=usuarios,ou=depDireccion,dc=miralcamp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: RGALLEGOC
+sn: Gallego Chaves
+givenName: Rodrigo
+cn: Rodrigo Gallego Chaves
+displayName: Rodrigo Gallego Chaves
+uidNumber: 10001
+gidNumber: 4001
+loginShell: /bin/bash
+homeDirectory: /home/RGALLEGOC
+
+#Usuario del departamento de Secretaria
+dn: uid=JAGUILARA,ou=usuarios,ou=depSecretaria,dc=miralcamp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: JAGUILARA
+sn: Aguilar Alba
+givenName: Johann
+cn: Johann Aguilar Alba
+displayName: Johhan aguilar Alba
+uidNumber: 10002
+gidNumber: 4002
+loginShell: /bin/bash
+homeDirectory: /home/JAGUILARA
+
+#Usuario del departamento de Conserjeria
+dn: uid=PSANCHOC,ou=usuarios,ou=depConserjeria,dc=miralcamp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PSANCHOC
+sn: Sancho Carvalho
+givenName: Pepe
+cn: Pepe Sancho Carvalho
+displayName: Pepe Sancho Carvalho
+uidNumber: 10003
+gidNumber: 4003
+loginShell: /bin/bash
+homeDirectory: /home/PSANCHOC
