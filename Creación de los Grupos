@@ -1,0 +1,17 @@
+#Grupo del departamento de dirección
+dn: cn=GGDireccion,ou=grupos,ou=depDireccion,dc=miralcamp,dc=local
+objectClass: posixGroup
+cn: GGDireccion
+gidNumber: 4001
+
+#Grupo del departamento de secretaria
+dn: cn=GGSecretaria,ou=grupos,ou=depSecretaria,dc=miralcamp,dc=local
+objectClass: posixGroup
+cn: GGSecretaria
+gidNumber: 4002
+
+#Grupo del departamento de conserjeria
+dn: cn=GGConserjeria,ou=grupos,ou=depConserjeria,dc=miralcamp,dc=local
+objectClass: posixGroup
+cn: GGConserjeria
+gidNumber: 4003
