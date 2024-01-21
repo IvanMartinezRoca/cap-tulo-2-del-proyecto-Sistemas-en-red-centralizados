@@ -1,8 +1,28 @@
 #UO'S del departamento de Dirección
+dn: ou=grupos,ou=depDireccion,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: grupos
 
+dn: ou=equipos,ou=depDireccion,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: equipos
+
+dn: ou=usuarios,ou=depDireccion,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: usuarios
 
 #UO'S del departamento de Secretaria
+dn: ou=grupos,ou=depSecretaria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: grupos
 
+dn: ou=equipos,ou=depSecretaria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: equipos
+
+dn: ou=usuarios,ou=depSecretaria,dc=miralcamp,dc=local
+objectClass: organizationalUnit
+ou: usuarios
 
 #UO'S del departamento de Conserjeria
 dn: ou=grupos,ou=depConserjeria,dc=miralcamp,dc=local
